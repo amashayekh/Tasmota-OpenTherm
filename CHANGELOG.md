@@ -20,6 +20,11 @@ All notable changes to this project will be documented in this file.
 - Code hardening replacing `strcat` and `strcpy` with safer alternatives (#24832)
 - Berry optimized solidified structures for code constants and maps (#24838)
 
+### Fixed
+- SML modbus/TCP on ESP32-p4 with only Ethernet shows "SML: could not connect TCP since wifi is down" (#24845)
+
+### Removed
+
 ## [15.4.0.2] 20260603
 ### Added
 - Support for Modbus RX Enable GPIO (#24726)
