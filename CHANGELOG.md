@@ -3,10 +3,10 @@ All notable changes to this project will be documented in this file.
 
 ## [Released]
 
-## [15.5.0] 20260619
+## [15.5.0] 20260621
 - Release Sylvan
 
-## [15.4.0.3] 20260619
+## [15.4.0.3] 20260621
 ### Added
 - Serial console support for Backspace when enabling `#define USE_SERIAL_BACKSPACE` (#24830)
 - Build copy firmware artifacts with ELF-extracted build timestamp (opt-in) (#24794)
@@ -22,8 +22,6 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 - SML modbus/TCP on ESP32-p4 with only Ethernet shows "SML: could not connect TCP since wifi is down" (#24845)
-
-### Removed
 
 ## [15.4.0.2] 20260603
 ### Added
