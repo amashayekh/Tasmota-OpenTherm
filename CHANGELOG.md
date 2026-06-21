@@ -20,6 +20,7 @@ All notable changes to this project will be documented in this file.
 - Berry optimized solidified structures for code constants and maps (#24838)
 
 ### Fixed
+- SML modbus/TCP on ESP32-p4 with only Ethernet shows "SML: could not connect TCP since wifi is down" (#24845)
 
 ### Removed
 
