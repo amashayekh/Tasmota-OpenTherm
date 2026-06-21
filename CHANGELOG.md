@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Serial console support for Backspace when enabling `#define USE_SERIAL_BACKSPACE` (#24830)
 - Build copy firmware artifacts with ELF-extracted build timestamp (opt-in) (#24794)
+- Enhance Matter plugin functionality for On/Off control and add support for Global Scene Control and related commands (#24854)
 
 ### Changed
 - Sensirion_Core library from v0.7.2 to arduino-core v0.7.3
